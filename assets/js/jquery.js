@@ -37,9 +37,6 @@ $(document).ready(() => {
         urlsw("#portfolio");
     });
 
-    $(".lightmodeClick").click(() => {
-        showDialogue("dude, are you kidding? nobody likes light mode...");
-    });
     $(".send").click(() => {
         setTimeout(urlsw('#'), 1000)
     });
@@ -87,8 +84,14 @@ $(document).ready(() => {
     $(".gotoNob").click(() => {
         url("https://juro0.github.io/nob-site");
     });
-    $(".gotoArcoo").click(() => {
-        url("https://arco-2.github.io/");
+    $(".gotoExipom").click(() => {
+        url("https://juro0.github.io/exipom");
+    });
+    $(".gotoLinks").click(()=>{
+        url("https://juro0.github.io/links")
+    });
+    $(".gotoSimon").click(()=>{
+        url("https://juro0.github.io/simon-game")
     });
 
 });

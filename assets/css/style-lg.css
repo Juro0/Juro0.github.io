@@ -166,30 +166,6 @@ html, body {
     color: var(--clr-dark-green);
 }
 
-/* LIGHT MODE */
-
-.light {
-    position: fixed;
-    display: flex;
-    z-index: 100;
-    bottom: 6vh;
-    right: 6vh;
-    background: var(--clr-light-green);
-    height: 3rem;
-    width: 3rem;
-    border-radius: 3rem;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: var(--clr-white);
-    font-size: 1.6rem;
-    cursor: pointer;
-}
-
-.light:hover {
-    transform: scale(110%);
-}
-
 /* HOME PAGE */
 
 .home-img {
