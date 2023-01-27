@@ -64,6 +64,10 @@ html, body {
     width: 100%;
 }
 
+.page-lg {
+    height: fit-content;
+}
+
 .mobReveal {
     transform: translateX(-60px);
     opacity: 0;

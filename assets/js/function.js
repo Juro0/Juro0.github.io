@@ -27,7 +27,7 @@ let mobReveal = () => {
     for (var i = 0; i < reveals.length; i++) {
         let windowHeight = window.innerHeight;
         let elementTop = reveals[i].getBoundingClientRect().top;
-        const elementVisible = 140; // maggiore è il numero maggiore è lo spazio prima che parta l'animazione
+        const elementVisible = 100; // maggiore è il numero maggiore è lo spazio prima che parta l'animazione
         if (elementTop < windowHeight - elementVisible) {
             reveals[i].classList.add("active");
         } else {
