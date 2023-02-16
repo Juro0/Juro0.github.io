@@ -87,6 +87,9 @@ $(document).ready(() => {
     $(".gotoExipom").click(() => {
         url("https://juro0.github.io/exipom");
     });
+    $(".gotoMoodmirror").click(() => {
+        url("https://juro0.github.io/moodmirror");
+    });
     $(".gotoLinks").click(()=>{
         url("https://juro0.github.io/links")
     });
