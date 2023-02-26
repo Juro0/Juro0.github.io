@@ -6,6 +6,22 @@ let urlsw = (url) => {
     location.href = url
 }
 
+// MOBILE MENU
+
+let toggleMenu = () => {
+    $(".mobile-menu").toggleClass("menu-active")
+    $(".mobile-menu").toggleClass("menu-unactive")
+    $(".menu-icon").toggleClass("uil-bars")
+    $(".menu-icon").toggleClass("uil-times")
+}
+
+let closeMenu = () => {
+    $(".mobile-menu").addClass("menu-unactive")
+    $(".mobile-menu").removeClass("menu-active")
+    $(".menu-icon").toggleClass("uil-bars")
+    $(".menu-icon").toggleClass("uil-times")
+}
+
 // SCROLL ANIMATION
 
 let reveal = () => {
@@ -42,12 +58,5 @@ window.addEventListener("scroll", ()=>{
 reveal()
 mobReveal()
 
-// show dialogue
-
-let showDialogue = (text) => {
-    alert(text)
-}
-
-// PORTFOLIO GENERATOR
-
-// !!! WORK IN PROGRESS
+// STARTED ON 12/18/2022
+// ULTIMATED ON 12/28/2022
