@@ -42,11 +42,7 @@ html, body {
 }
 
 .mobile-hide {
-    display: none;
-}
-
-.mobile-hide > * {
-    display: none;
+    display: none !important;
 }
 
 .hide {
@@ -115,7 +111,7 @@ html, body {
     z-index: 100;
 }
 
-.nav-logo {
+#nav-logo {
     position: absolute;
     top: 2rem;
     left: 10vw;
@@ -123,7 +119,7 @@ html, body {
     opacity: .7;
 }
 
-.nav-logo:hover {
+#nav-logo:hover {
     opacity: 1;
     transform: translate(-2px, -2px);
 }
