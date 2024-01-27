@@ -21,6 +21,26 @@
                 "sviluppo in javascript degli script riguardo click listener, animazioni allo scroll, ricerca progetti, collegamento a file json, caricamento progetti",
                 "sviluppo del file di stile per dispositivi con schermi stretti, ritocchi finali e test generali"
             ]
+        },
+
+        {
+            "name": "links",
+            "img_name": "links.png",
+            "source_url": "https://github.com/Juro0/links",
+            "site_url": "https://juro0.github.io/links",
+            "status": "completed",
+            "version": "v4.0.0",
+            "start_date": "17/07/2022",
+            "last_update": "27/01/2024",
+            "user_desc": "links è il sito collegato ai miei biglietti da visita, presenta principalmente dei collegamenti con i miei social principali, alcuni contatti essenziali come email e numero di telefono e diversi rimandi al mio sito",
+            "tech_desc": "è un sito client-side hostato su github pages, nome dei collegamenti e URL sono salvati in un file json e vengono caricati tramite richiesta javascript, le particelle nello sfondo sono elaborate dalla libreria particles.js di Vincent Garreau",
+            "analysis": [
+                "analisi di altri siti di links, sia personali che pubblici (come linktree)",
+                "elaborazione di un design che si contraddistingua dalla massa, pur mantenendo le funzioni essenziali in rilevanza",
+                "creazione della struttura HTML e del CSS per dispositivi con schermi larghi",
+                "creazione del CSS per dispositivi con schermi medi e piccoli",
+                "sviluppo in javascript degli script riguardo click listener, animazioni, richieste JSON e particelle, ritocchi finali e test generali"
+            ]
         }
         
 

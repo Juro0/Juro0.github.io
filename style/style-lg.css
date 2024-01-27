@@ -341,7 +341,7 @@ input:focus {
 }
 
 .project__specify__img:hover > img{
-    transform: scale(1.1) rotate(1deg);
+    transform: scale(1.3) rotate(4deg);
 }
 
 .project__specify__buttons {
