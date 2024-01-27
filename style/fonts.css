@@ -1,0 +1,24 @@
+
+/* lato-regular */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/lato.woff2') format('woff2');
+}
+
+/* lato-900 */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/lato-700.woff2') format('woff2');
+}
+
+/* fjalla-one-regular */
+@font-face {
+    font-family: 'Fjalla One';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/fjalla-one.woff2') format('woff2');
+}

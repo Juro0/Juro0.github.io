@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="it">
+
+    <head>
+    
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <title>&bull; Juri Gemignani</title>
+        <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    
+        <link rel="stylesheet" href="style/fonts.css">
+        <link rel="stylesheet" href="style/style-lg.css">
+        <link rel="stylesheet" href="style/style-md.css">
+        <link rel="stylesheet" href="style/style-sm.css" media="screen and (max-width: 768px)">
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    
+    </head>
+
+    <body>
+
+        <!-- project specify -->
+        <div class="floating-page" id="project__specify">
+
+            <div class="page top-page">
+
+                <p class="project__specify__back-button">← back to the site</p>
+
+                <p class="project__specify__name">Project Name 1</p>
+
+                <div class="project__specify__img">
+
+                    <img src="img/test.png" draggable="false">
+
+                </div>
+
+                <div class="project__specify__buttons">
+
+                    <button class="project__specify__button secondary">link to source code</button>
+
+                    <button class="project__specify__button primary">link to project's site</button>
+
+                </div>
+
+            </div>
+
+            <div class="page">
+
+                <p class="project__specify__title">Projects Info</p>
+
+                <div class="project__specify__info">
+
+                    <div class="project__specify__info__card">
+
+                        <p class="project__specify__info__card__text title">Status</p>
+
+                        <p class="project__specify__info__card__text" id="status_card">deploying...</p>
+
+                    </div>
+
+                    <div class="project__specify__info__card">
+
+                        <p class="project__specify__info__card__text title">Version</p>
+
+                        <p class="project__specify__info__card__text" id="version_card">v1.0.0</p>
+
+                    </div>
+
+                    <div class="project__specify__info__card">
+
+                        <p class="project__specify__info__card__text title">Started on</p>
+
+                        <p class="project__specify__info__card__text" id="start_date_card">15/01/2023</p>
+
+                    </div>
+
+                    <div class="project__specify__info__card">
+
+                        <p class="project__specify__info__card__text title">Last update on</p>
+
+                        <p class="project__specify__info__card__text" id="last_update_card">23/01/2023</p>
+
+                    </div>
+
+                </div>
+
+                <p class="project__specify__title">User Description</p>
+
+                <p class="project__specify__description" id="user_description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi elementum laoreet nulla, id molestie ligula tincidunt in. Mauris lacus ipsum, consectetur vel ante a, ornare rhoncus mi. Duis imperdiet orci vel condimentum porta. Nullam pellentesque ornare nisi, sit amet lobortis enim facilisis sed. Nulla feugiat tincidunt metus, ac aliquet nulla dignissim at. Mauris quis molestie libero, ut venenatis ex. Proin bibendum diam in rutrum elementum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Duis lobortis orci augue. Cras id sem nec mi porta gravida. Duis eu sagittis massa, id vehicula risus.
+                </p>
+
+                <p class="project__specify__title">Techinical Description</p>
+                
+                <p class="project__specify__description" id="tech_description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi elementum laoreet nulla, id molestie ligula tincidunt in. Mauris lacus ipsum, consectetur vel ante a, ornare rhoncus mi. Duis imperdiet orci vel condimentum porta. Nullam pellentesque ornare nisi, sit amet lobortis enim facilisis sed. Nulla feugiat tincidunt metus, ac aliquet nulla dignissim at. Mauris quis molestie libero, ut venenatis ex. Proin bibendum diam in rutrum elementum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Duis lobortis orci augue. Cras id sem nec mi porta gravida. Duis eu sagittis massa, id vehicula risus.
+                </p>
+                
+                <p class="project__specify__title">Project Steps</p>
+
+                <div class="project__specify__list">
+
+                    <p class="project__specify__list__element">test1</p>
+
+                    <p class="project__specify__list__element">test1</p>
+
+                    <p class="project__specify__list__element">test1</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="page" id="hero">
+
+            <div class="hero__content reveal">
+
+                <p class="hero__name">Juri Gemignani</p>
+
+                <div class="hero__horizontal-line"></div>
+
+                <p class="hero__subtitle">website developer</p>
+
+            </div>
+
+            <div class="hero__content hero__content-2 reveal left">
+
+                <i class="uil uil-link hero__social-icon" data-target="https://juro0.github.io/links"></i>
+
+                <i class="uil uil-instagram hero__social-icon" data-target="https://instagram.com/juri_gemignani"></i>
+
+                <i class="uil uil-github hero__social-icon" data-target="https://github.com/juro0"></i>
+
+            </div>
+
+            <i class="uil uil-angle-down hero__scroll-down reveal left" data-target="#projects"></i>
+
+        </div>
+
+        <div class="page" id="projects">
+
+            <input type="text" class="projects__searchbar reveal" placeholder="cerca un progetto..." onkeyup="search_project()">
+
+            <div class="projects__container">
+
+                <!-- <div class="projects__project">
+
+                    <img src="img/test.png" class="project__img" draggable="false">
+
+                    <div class="project__footer">
+
+                        <div class="project__footer__dot"></div>
+
+                        <div class="project__footer__line"></div>
+
+                        <p class="project__footer__name">Project Name 1</p>
+
+                    </div>
+
+                </div> -->
+
+            </div>
+
+        </div>
+
+        <div class="footer">
+
+            <img src="img/favicon.png" class="footer__logo reveal" draggable="false">
+
+            <p class="footer__credits reveal left">made by Juri, based in Italy</p>
+
+        </div>
+        
+        <script src="script/app.js"></script>
+        
+    </body>
+
+</html>

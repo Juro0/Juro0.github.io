@@ -1,0 +1,28 @@
+{
+    "portfolio": [
+
+        {
+            "name": "portfolio",
+            "img_name": "portfolio.png",
+            "source_url": "https://github.com/Juro0/juro0.github.io",
+            "site_url": "https://juro0.github.io/",
+            "status": "completed",
+            "version": "v3.0.0",
+            "start_date": "29/08/2022",
+            "last_update": "25/01/2024",
+            "user_desc": "questo è il mio sito personale, con qualche link ai miei social e una sezione dedicata al mio portfolio con analisi specifica e descrizioni per ogni progetto",
+            "tech_desc": "è un sito client-side hostato su github pages, lo stile è gestito in CSS puro e la struttura in javascript, i progetti sono salvati su file json e formattati da javascript",
+            "analysis": [
+                "analisi di altri siti portfolio/personali alla ricerca di elementi fondamentali in un sito di presentazione",
+                "creazione di un wireframe con hero-section con nome e social, barra di ricerca e sezione progetti cliccabili",
+                "creazione di un design unico ed accattivante sulle basi del wireframe, pensando anticipatamente a come adeguarsi a dispositivi mobile",
+                "creazione della struttura in HTML, import dei file di stile e di script, creazione del file json",
+                "sviluppo del file di stile per dispositivi con schermi larghi e medi",
+                "sviluppo in javascript degli script riguardo click listener, animazioni allo scroll, ricerca progetti, collegamento a file json, caricamento progetti",
+                "sviluppo del file di stile per dispositivi con schermi stretti, ritocchi finali e test generali"
+            ]
+        }
+        
+
+    ]
+}

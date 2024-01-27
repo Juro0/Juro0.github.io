@@ -1,0 +1,32 @@
+
+@media screen and (max-width: 1000px) {
+
+    .project__specify__title, .project__specify__info,
+    .project__specify__description, .project__specify__list
+    {width: 800px;}
+
+}
+
+@media screen and (max-width: 850px) {
+
+    .projects__searchbar {width: 700px;}
+    .projects__container {width: 700px;}
+
+    .project__img, .project__footer {width: 270px;}
+
+    .project__specify__title, .project__specify__info,
+    .project__specify__description, .project__specify__list
+    {width: 700px;}
+
+    .project__specify__info__card {width: 150px; padding: 15px 0;}
+
+    .project__specify__info__card__text {font-size: 14px;}
+    .project__specify__info__card__text.title {font-size: 15px;}
+
+}
+
+@media screen and (max-height: 450px) {
+
+    .hero__scroll-down {display: none;}
+
+}

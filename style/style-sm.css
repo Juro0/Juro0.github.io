@@ -1,0 +1,104 @@
+
+/* HERO PAGE */
+
+.hero__name {
+    font-size: 45px;
+}
+
+.hero__horizontal-line {
+    width: 340px;
+}
+
+.hero__subtitle {
+    font-size: 20px;
+    letter-spacing: 2px;
+    opacity: .8;
+}
+
+/* PROJECTS PAGE*/
+
+.projects__searchbar {
+    width: 80%;
+}
+
+.projects__container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project__img, .project__footer {
+    width: 85%;
+}
+
+/* FOOTER */
+
+.footer {
+    height: 300px;
+}
+
+.footer__credits {
+    margin-top: 27px;
+    letter-spacing: 1px;
+}
+
+/* PROJECT SPECIFY */
+
+#project__specify > .top-page {
+    padding-top: 100px;
+}
+
+.project__specify__name {
+    margin: 40px 0 55px;
+}
+
+.project__specify__img, .project__specify__buttons {
+    width: 350px;
+    margin: 20px 0;
+}
+
+.project__specify__buttons > button {
+    aspect-ratio: 8;
+}
+
+.project__specify__title, .project__specify__info,
+.project__specify__description, .project__specify__list
+{width: 90%;}
+
+.project__specify__title {
+    font-size: 35px;
+}
+
+.project__specify__description {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.project__specify__list__element {
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+@media screen and (max-width: 680px) {
+
+    .project__specify__info {flex-direction: column;}
+
+    .project__specify__info__card {
+        width: 320px;
+        aspect-ratio: 3/1;
+        margin: 20px 0;
+        padding: 0 25px;
+        flex-direction: row;
+    }
+
+    .project__specify__info__card__text,
+    .project__specify__info__card__text.title {
+        font-size: 16px;
+    }
+
+    .project__specify__info__card__text.title::after {
+        content: ":";
+    }
+
+}
