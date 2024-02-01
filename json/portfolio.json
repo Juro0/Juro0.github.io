@@ -41,6 +41,29 @@
                 "creazione del CSS per dispositivi con schermi medi e piccoli",
                 "sviluppo in javascript degli script riguardo click listener, animazioni, richieste JSON e particelle, ritocchi finali e test generali"
             ]
+        },
+
+        {
+            "name": "colorbuddy",
+            "img_name": "colorbuddy.png",
+            "source_url": "https://github.com/Juro0/colorbuddy",
+            "site_url": "https://github.com/Juro0/colorbuddy/releases/latest",
+            "status": "completed",
+            "version": "v2.0.0",
+            "start_date": "20/04/2023",
+            "last_update": "01/02/2024",
+            "user_desc": "colorbuddy è un'estensione per browser che permette di visualizzare graficamente un colore a partire dal codice HEX o dalla sintassi RGB. inoltre consente la conversione immediata tra queste due sintassi",
+            "tech_desc": "è un'estensione creata principalmente per browser chromium. la conversione tra le sintassi viene attivata dall'evento onkeyup o dal click sul bottone di conversione. in caso di errore di sintassi, il valore dell'altra casella di inserimento e il colore del cerchio per la visualizzazione rimarranno invariati",
+            "analysis": [
+                "ricerca delle funzionalità necessarie per un'estensione utile",
+                "studio della documentazione di google chrome sulle estensioni per browser",
+                "elaborazione di un design accattivante per l'estensione, scelta di colori e fonts adatti",
+                "creazione del file manifest.json con le informazioni necessarie",
+                "creazione della struttura HTML e del file di stile CSS",
+                "sviluppo in javascript degli script riguardo la conversione tra HEX e RGB in entrambe le direzioni",
+                "sviluppo di un sistema di validazione degli input per entrambe le sintassi",
+                "integrazione degli script con la struttura HTML e aggiunta dei listener necessari"
+            ]
         }
         
 
