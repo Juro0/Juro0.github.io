@@ -64,6 +64,28 @@
                 "sviluppo di un sistema di validazione degli input per entrambe le sintassi",
                 "integrazione degli script con la struttura HTML e aggiunta dei listener necessari"
             ]
+        },
+
+        {
+            "name": "exipom",
+            "img_name": "exipom.png",
+            "source_url": "https://github.com/Juro0/exipom",
+            "site_url": "https://juro0.github.io/exipom",
+            "status": "completed",
+            "version": "v2.0.0",
+            "start_date": "19/01/2023",
+            "last_update": "07/02/2024",
+            "user_desc": "exipom è un sito internet che offre all'utente un timer per la tecnica del pomodoro, che consiste nell'alternare del tempo di concentrazione o studio a delle brevi pause, in cicli scanditi da pause più lunghe. exipom permette la personalizzazione completa della durata dei timer e prossimamente saranno disponibili diversi temi da utilizzare nel sito!",
+            "tech_desc": "è un sito client-side hostato su github pages, utilizza la tecnologia localStorage per salvare le preferenze dell'utente e la funzione di javascript setInterval per avviare il timer. per questo motivo, se la pagina di exipom non è in primo piano, è possibile che il timer rallenti non funzionando correttamente.",
+            "analysis": [
+                "analisi di altri siti di timer per la tecnica del pomodoro e studio delle funzioni presenti in questi",
+                "scelta di un design accattivante ed efficace per una corretta user experience, scelta delle funzionalità da aggiungere al sito",
+                "scelta di un logo adatto e dei colori migliori per l'intero progetto",
+                "creazione della struttura HTML del sito e del CSS per dispositivi con schermi larghi",
+                "creazione del CSS per dispositivi con schermi minori e telefoni",
+                "sviluppo in javascript del sistema di timer e della gestione dei pulsanti del sito",
+                "sviluppo in javascript del sistema di salvataggio delle impostazioni in localStorage e di notifica"
+            ]
         }
         
 
