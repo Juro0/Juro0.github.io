@@ -86,6 +86,26 @@
                 "sviluppo in javascript del sistema di timer e della gestione dei pulsanti del sito",
                 "sviluppo in javascript del sistema di salvataggio delle impostazioni in localStorage e di notifica"
             ]
+        },
+
+        {
+            "name": "tic tac toe",
+            "img_name": "tic-tac-toe.png",
+            "source_url": "https://github.com/Juro0/tic-tac-toe",
+            "site_url": "https://juro0.github.io/tic-tac-toe",
+            "status": "completed",
+            "version": "v2.0.0",
+            "start_date": "22/04/2023",
+            "last_update": "03/03/2024",
+            "user_desc": "tic tac toe è un famoso gioco su carta, anche conosciuto come tris, che ho deciso di riportare in formato digitale usando una grafica accattivante per migliorare l'esperienza.",
+            "tech_desc": "è un sito client-side hostato su github pages, per validare le vittorie utilizza una lista di combinazioni possibili che vengono confrontate con le mosse di ogni giocatore ad ogni turno.",
+            "analysis": [
+                "scelta di un logo adatto, e dei colori migliori per l'intero progetto",
+                "scelta di un design accattivante ed efficace per una corretta user experience, scelta della disposizione delle informazioni essenziali, come il punteggio e l'ultima vittoria",
+                "creazione della struttura HTML del sito e del CSS per dispositivi con schermi larghi",
+                "sviluppo in javascript del sistema di gioco tramite manipolazione del DOM e di validazione delle vittorie",
+                "creazione del CSS per dispositivi con schermi minori e telefoni"
+            ]
         }
         
 
