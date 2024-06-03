@@ -106,6 +106,19 @@
                 "sviluppo in javascript del sistema di gioco tramite manipolazione del DOM e di validazione delle vittorie",
                 "creazione del CSS per dispositivi con schermi minori e telefoni"
             ]
+        },
+
+        {
+            "name": "CAPS",
+            "img_name": "caps.png",
+            "source_url": "https://github.com/capsita-it",
+            "site_url": "https://capsita.it",
+            "status": "deploying...",
+            "version": "v0.1.0-alfa1",
+            "start_date": "07/03/2024",
+            "last_update": "07/03/2024",
+            "user_desc": "CAPS è uno strumento che offre agli studenti la possibilità di organizzare interrogazioni e verifiche in modo autonomo, mostrando statistiche sulle attività scolastiche e avvisando gli utenti riguardo i prossimi eventi importanti.",
+            "tech_desc": "è un sito mantenuto da un back-end in python (con Flask) e hostato su pythonanywhere, il lato front-end è realizzato con html, css e javascript senza l'utilizzo di framework, fa' eccezione la pagina statistiche, dove è stata utilizzata la libreria Chart.js per i grafici."
         }
         
 

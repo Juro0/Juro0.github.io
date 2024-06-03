@@ -32,19 +32,6 @@ function load_project(name) {
     document.querySelector('#user_description').innerText = project['user_desc']
     document.querySelector('#tech_description').innerText = project['tech_desc']
 
-    // reset list
-    document.querySelector('.project__specify__list').innerHTML = ''
-
-    for(const line_text of project['analysis']) {
-
-        const line = document.createElement('p')
-        line.classList.add('project__specify__list__element')
-        line.innerText = line_text
-
-        document.querySelector('.project__specify__list').appendChild(line)
-
-    }
-
     show_specify()
 
 }
@@ -184,7 +171,6 @@ function search_project() {
 
     input = document.querySelector('.projects__searchbar').value.toLowerCase().trim()
     
-
     const project_name_elements = document.getElementsByClassName('project__footer__name')
 
     if (!input) {
